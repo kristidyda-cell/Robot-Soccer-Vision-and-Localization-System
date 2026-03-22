@@ -1,13 +1,15 @@
 # MSL soccer robot @Hawking
 
-The code supports competition like [FIRA RoboSot Soccer Competition](http://www.firaworldcup.org/VisitorPages/default.aspx?itemid=3) and [RoboCup Middle Size Soccer Competition](https://www.robocup.org/).
+## Overview
+This project implements a robot soccer vision and localization system in C++ using OpenCV and ROS. The codebase includes front vision and omnidirectional vision modules for ball detection, field-feature extraction, robot pose estimation, obstacle interpretation, and structured perception output for the world model and higher-level control logic.
 
-This repo is modified from MSL soccer robot team [nudt-nubot](https://github.com/nubot-nudt/nubot_ws). Huge thanks to them!
+The code supports competitions such as the FIRA RoboSot Soccer Competition and the RoboCup Middle Size Soccer Competition.
 
-### Drivers and development
+This repository was adapted from the NUDT Nubot MSL soccer robot codebase. Huge thanks to the original team.
 
-##### camera
-- [camera_umd](https://github.com/ros-drivers/camera_umd)
-- [gscam](https://github.com/ros-drivers/gscam) and [tiscamera ROS example](https://github.com/TheImagingSource/tiscamera/tree/master/examples/ROS)
-- [zed-ros-wrapper](https://github.com/stereolabs/zed-ros-wrapper)
+## Drivers and development
 
+### Camera
+- camera_umd
+- gscam and tiscamera ROS example
+- zed-ros-wrapper
