@@ -1,4 +1,4 @@
-# MSL soccer robot @Hawking
+# MSL soccer robot 
 
 ## Overview
 This project implements a robot soccer vision and localization system in C++ using OpenCV and ROS. The codebase includes front vision and omnidirectional vision modules for ball detection, field-feature extraction, robot pose estimation, obstacle interpretation, and structured perception output for the world model and higher-level control logic.
